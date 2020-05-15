@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./plugins/bootstrap.css">
     <link rel="stylesheet" href="./plugins/style.css">
-    <script src="./plugins/jquery-3.5.0.min.js"></script>
+    <script src="./plugins/jquery-3.5.1.js"></script>
+
     <script src="./plugins/bootstrap.bundle.min.js"></script>
     <title>泰山渡假村</title>
 </head>
 <body class="bg-dark">
-   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <!-- header部分 -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <span class="navbar-brand mb-0 h1 font-weight-bold">泰山渡假村</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#head-nav" >
@@ -27,5 +29,39 @@
         </div>
     </div>
     </nav>
+  <!-- 輪播部分 -->
+    <div class="carousel slide" data-ride="carousel" id="WuGeslider">
+      <ol class="carousel-indicators">
+        <li data-target="#WuGeslider" data-slide-to="0" class="active"></li>
+        <li data-target="#WuGeslider" data-slide-to="1"></li>
+        <li data-target="#WuGeslider" data-slide-to="2"></li>
+      </ol>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+          <img src="https://picsum.photos/1920/1080/?random=1" class="d-block w-100" >
+          <div class="carousel-caption d-none d-md-block">
+            <h5>...</h5>
+            <p>...</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1920/1080/?random=2" class="d-block w-100" >
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1920/1080/?random=3" class="d-block w-100" >
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#WuGeslider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" ></span>
+      
+    </a>
+    <a class="carousel-control-next" href="#WuGeslider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" ></span>
+      
+    </a>
+    </div>
+
+
+
 </body>
 </html>
