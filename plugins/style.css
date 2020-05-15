@@ -1,3 +1,6 @@
 * {
     font-family: "Microsoft JhengHei",Arial, Helvetica, sans-serif;
 }
+.carouselX_img{
+    object-fit: cover;
+}
