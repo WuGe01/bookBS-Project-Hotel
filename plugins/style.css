@@ -1,6 +1,18 @@
 * {
     font-family: "Microsoft JhengHei",Arial, Helvetica, sans-serif;
 }
-.carouselX_img{
+.WuGesliderimg {
     object-fit: cover;
-}
+
+  }
+.carousel-caption {
+    top: 0;
+    bottom: 0;
+    text-shadow: #333 0.3rem 0.3rem 0.5rem;
+  }
+.WuGesliderli {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: 10px solid transparent;
+  }
