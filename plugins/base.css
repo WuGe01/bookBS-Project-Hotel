@@ -29,7 +29,7 @@ footer>.position-fixed{
 }
 .nav-tabs>a.active{
   background-color: #17a2b8!important;
-  color: white!important;
+
 }
 @keyframes jump {
   0%,
