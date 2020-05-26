@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./plugins/bootstrap.css">
-    <link rel="stylesheet" href="./plugins/style.css">
+    <link rel="stylesheet" href="./plugins/base.css">
     <!-- 這個應該是網頁title小圖 -->
     <link rel="shortcut icon" href="imges/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/afe3f8682f.js" crossorigin="anonymous"></script>
@@ -12,6 +12,7 @@
     <script src="./plugins/jquery-3.5.1.js"></script>
     <script src="./plugins/bootstrap.bundle.min.js"></script>
     <title>泰山渡假村</title>
+
 </head>
 <body class="bg-dark">
   <!-- header部分 -->
@@ -33,36 +34,83 @@
     </div>
     </nav>
   <!-- 輪播部分 -->
-    <div class="carousel slide" data-ride="carousel" id="WuGeslider">
+    <section class="carousel slide" data-ride="carousel" id="WuGeslider">
       <ol class="carousel-indicators">
         <li data-target="#WuGeslider" data-slide-to="0" class="active"></li>
-        <li data-target="#WuGeslider" data-slide-to="1"></li>
-        <li data-target="#WuGeslider" data-slide-to="2"></li>
+        <li data-target="#WuGeslider" data-slide-to="1" class=""></li>
+        <li data-target="#WuGeslider" data-slide-to="2" class=""></li>
+        <li data-target="#WuGeslider" data-slide-to="3" class=""></li>
       </ol>
     <div class="carousel-inner ">
       <div class="carousel-item vh-100 active">
-          <img src="https://picsum.photos/1920/1080/?random=1" class="h-100 w-100 carouselX_img" >
-          <div class="carousel-caption d-flex flex-column justify-content-center">
-            <h5>泰山渡假村消暑最佳的好夥伴</h5>
-            <p>...</p>
+          <img src="./img/X-001.jpg" class="h-100 w-100" >
+          <div class="carousel-caption d-flex flex-column justify-content-center ">
+            <h1>泰山渡假村消暑最佳的好夥伴</h1>
+            <!-- 響應式 -->
+            <p class="d-none d-md-block">忙碌的生活中，你有多久沒有好好的考賞自己呢？放慢腳步，來泰山好好度假吧</p>
           </div>
       </div>
       <div class="carousel-item vh-100">
-        <img src="https://picsum.photos/1920/1080/?random=2" class="h-100 w-100 carouselX_img" >
+        <img src="./img/X-002.jpg" class="h-100 w-100" >
+        <div class="carousel-caption d-flex flex-column justify-content-center">
+          <h1>泰山咖啡廳 世界聞名而來</h1>
+          <p class="d-none d-md-block">泰山特產咖啡精選淬鍊而成，凡住宿者每人免費請你喝經典咖啡下午茶一份</p>
+        </div>
       </div>
       <div class="carousel-item vh-100">
-        <img src="https://picsum.photos/1920/1080/?random=3" class="h-100 w-100 carouselX_img" >
+        <img src="./img/X-003.jpg" class="h-100 w-100" >
+        <div class="carousel-caption d-flex flex-column justify-content-center">
+          <h1>寵愛有你 婚宴專案特惠</h1>
+          <p class="d-none d-md-block">本月活動喜宴專案滿10桌送一主桌，滿25桌再送沖繩雙人蜜月來回機票</p>
+        </div>
+      </div>
+      <div class="carousel-item vh-100">
+        <img src="./img/X-004.jpg" class="h-100 w-100" >
+        <div class="carousel-caption d-flex flex-column justify-content-center">
+          <h1>外燴商餐 美食饗宴</h1>
+          <p class="d-none d-md-block">忙全台最豐富的國內外文化餐飲美食，與先進的視聽投影設備與企劃小組，歡迎商約洽談</p>
+        </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#WuGeslider" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#WuGeslider" data-slide="prev">
       <span class="carousel-control-prev-icon" ></span>
       
     </a>
-    <a class="carousel-control-next" href="#WuGeslider" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#WuGeslider" data-slide="next">
       <span class="carousel-control-next-icon" ></span>
       
     </a>
+    </section>
+
+    <header class="container mt-5 text-center">
+      <h2 class="text-info mb-3">房型介紹</h2>
+      <div class="nav nav-tabs justify-content-around">
+        <a class="nav-item nav-link active alert-info alert-info text-dark ask shadow-sm" data-toggle="tab" href="#nav-home">行政本館</a>
+        <a class="nav-item nav-link alert-info alert-info text-dark ask shadow-sm" data-toggle="tab" href="#nav-home2">雙幕川館</a>
+        <a class="nav-item nav-link alert-info alert-info text-dark ask shadow-sm" data-toggle="tab" href="#nav-home3">繪影湯屋</a>
+        <a class="nav-item nav-link alert-info alert-info text-dark ask shadow-sm" data-toggle="tab" href="#nav-price">價格</a>
+        <a class="nav-item nav-link alert-info alert-info text-dark ask shadow-sm" data-toggle="tab" href="#nav-order">訂房</a>
+      </div>
+    </header>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="nav-home">aaaaaaa</div>
+      <div class="tab-pane fade" id="nav-home2">...</div>
+      <div class="tab-pane fade" id="nav-home3">...</div>
+      <div class="tab-pane fade" id="nav-price">...</div>
+      <div class="tab-pane fade" id="nav-order">...</div>
     </div>
+
+
+    <!-- 尾頁版權 -->
+    <footer class="bg-dark text-muted py-3 text-center">
+      <small>
+        泰山職業訓練中心課程教材編譯 <br>
+        copyright &copy; <span class="text-warning">武戈01設計</span>. all rights reserved
+      </small>
+      <div class="position-fixed">
+        <a href="#WuGeslider" class="btn btn-info"><i class="fas fa-eject"></i></a>
+      </div>
+    </footer>
 
 
 
