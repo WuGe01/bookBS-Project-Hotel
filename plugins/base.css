@@ -44,6 +44,9 @@ footer>.position-fixed{
   background-attachment: fixed;
 
 }
+.card-header>a{
+  cursor:pointer;
+}
 /* #bobojump{
   transition: 1000ms ease; 
 } */
