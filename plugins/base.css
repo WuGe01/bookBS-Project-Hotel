@@ -47,8 +47,9 @@ footer>.position-fixed{
 .card-header>a{
   cursor:pointer;
 }
-.Ofill{
-  object-fit: fill;
+.embed-responsive>iframe{
+
+  filter: brightness(0.6);
 
 }
 /* #bobojump{
