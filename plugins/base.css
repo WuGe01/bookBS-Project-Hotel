@@ -18,7 +18,7 @@
 }
 footer>.position-fixed{
   bottom: 5vh;
-  right: 3vw;
+  right: 5vw;
   animation:jump 2s ease infinite;
 }
 .ask{
@@ -30,6 +30,27 @@ footer>.position-fixed{
 .nav-tabs>a.active{
   background-color: #17a2b8!important;
 
+}
+#home-service{
+  background-image: url(../img/LL.jpg),
+  linear-gradient(
+    90deg,
+    rgba(50,50,50,0.3) 10%,
+    rgba(50,50,50,0.3) 90%
+  );
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+/* #bobojump{
+  transition: 1000ms ease; 
+} */
+@media (min-width:992px){
+  #article-service li:nth-of-type(even) img{
+    order: 1;
+  }
 }
 @keyframes jump {
   0%,

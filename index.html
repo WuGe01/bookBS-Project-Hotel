@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="zh-tw">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./plugins/bootstrap.css">
-    <link rel="stylesheet" href="./plugins/base.css">
-    <!-- 這個應該是網頁title小圖 -->
-    <link rel="shortcut icon" href="imges/favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/afe3f8682f.js" crossorigin="anonymous"></script>
 
-    <script src="./plugins/jquery-3.5.1.js"></script>
-    <script src="./plugins/bootstrap.bundle.min.js"></script>
-    <title>泰山渡假村</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./plugins/bootstrap.css">
+  <link rel="stylesheet" href="./plugins/base.css">
+  <!-- 這個應該是網頁title小圖 -->
+  <link rel="shortcut icon" href="imges/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/afe3f8682f.js" crossorigin="anonymous"></script>
+
+  <script src="./plugins/jquery-3.5.1.js"></script>
+  <script src="./plugins/bootstrap.bundle.min.js"></script>
+  <title>泰山渡假村</title>
 
 </head>
+
 <body class="bg-white">
   <!-- header部分 -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <span class="navbar-brand mb-0 h1 font-weight-bold">泰山渡假村</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#head-nav" >
-          <span class="navbar-toggler-icon"></span>
-        </button>      
-        <div class="collapse navbar-collapse" id="head-nav">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#">房屋介紹  </a>
-            <a class="nav-item nav-link" href="#">服務設施</a>
-            <a class="nav-item nav-link" href="#">美食天地</a>
-            <a class="nav-item nav-link" href="#">交通資訊</a>
-            <a class="nav-item nav-link" href="#">聯絡我們</a>
-          </div>
+      <a href="#"><span class="navbar-brand mb-0 h1 font-weight-bold">泰山渡假村</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#head-nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="head-nav">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="#home-Introduction"><i class="fas fa-dungeon"></i> 房屋介紹 </a>
+          <a class="nav-item nav-link" href="#home-service"><i class="far fa-address-book"></i> 服務設施</a>
+          <a class="nav-item nav-link" href="#"><i class="fas fa-diagnoses"></i> 美食天地</a>
+          <a class="nav-item nav-link" href="#"><i class="fas fa-bus-alt"></i> 交通資訊</a>
+          <a class="nav-item nav-link" href="#"><i class="fab fa-teamspeak"></i> 聯絡我們</a>
         </div>
+      </div>
     </div>
-    </nav>
+  </nav>
   <!-- 輪播部分 -->
-    <section class="carousel slide" data-ride="carousel" id="WuGeslider">
-      <ol class="carousel-indicators">
-        <li data-target="#WuGeslider" data-slide-to="0" class="active"></li>
-        <li data-target="#WuGeslider" data-slide-to="1" class=""></li>
-        <li data-target="#WuGeslider" data-slide-to="2" class=""></li>
-        <li data-target="#WuGeslider" data-slide-to="3" class=""></li>
-      </ol>
+  <section class="carousel slide" data-ride="carousel" id="WuGeslider">
+    <ol class="carousel-indicators">
+      <li data-target="#WuGeslider" data-slide-to="0" class="active"></li>
+      <li data-target="#WuGeslider" data-slide-to="1" class=""></li>
+      <li data-target="#WuGeslider" data-slide-to="2" class=""></li>
+      <li data-target="#WuGeslider" data-slide-to="3" class=""></li>
+    </ol>
     <div class="carousel-inner ">
       <div class="carousel-item vh-100 active">
-          <img src="./img/X-001.jpg" class="h-100 w-100" >
-          <div class="carousel-caption d-flex flex-column justify-content-center ">
-            <h1>泰山渡假村消暑最佳的好夥伴</h1>
-            <!-- 響應式 -->
-            <p class="d-none d-md-block">忙碌的生活中，你有多久沒有好好的考賞自己呢？放慢腳步，來泰山好好度假吧</p>
-          </div>
+        <img src="./img/X-001.jpg" class="h-100 w-100">
+        <div class="carousel-caption d-flex flex-column justify-content-center ">
+          <h1>泰山渡假村消暑最佳的好夥伴</h1>
+          <!-- 響應式 -->
+          <p class="d-none d-md-block">忙碌的生活中，你有多久沒有好好的考賞自己呢？放慢腳步，來泰山好好度假吧</p>
+        </div>
       </div>
       <div class="carousel-item vh-100">
-        <img src="./img/X-002.jpg" class="h-100 w-100" >
+        <img src="./img/X-002.jpg" class="h-100 w-100">
         <div class="carousel-caption d-flex flex-column justify-content-center">
           <h1>泰山咖啡廳 世界聞名而來</h1>
           <p class="d-none d-md-block">泰山特產咖啡精選淬鍊而成，凡住宿者每人免費請你喝經典咖啡下午茶一份</p>
         </div>
       </div>
       <div class="carousel-item vh-100">
-        <img src="./img/X-003.jpg" class="h-100 w-100" >
+        <img src="./img/X-003.jpg" class="h-100 w-100">
         <div class="carousel-caption d-flex flex-column justify-content-center">
           <h1>寵愛有你 婚宴專案特惠</h1>
           <p class="d-none d-md-block">本月活動喜宴專案滿10桌送一主桌，滿25桌再送沖繩雙人蜜月來回機票</p>
         </div>
       </div>
       <div class="carousel-item vh-100">
-        <img src="./img/X-004.jpg" class="h-100 w-100" >
+        <img src="./img/X-004.jpg" class="h-100 w-100">
         <div class="carousel-caption d-flex flex-column justify-content-center">
           <h1>外燴商餐 美食饗宴</h1>
           <p class="d-none d-md-block">忙全台最豐富的國內外文化餐飲美食，與先進的視聽投影設備與企劃小組，歡迎商約洽談</p>
@@ -73,249 +75,403 @@
       </div>
     </div>
     <a class="carousel-control-prev" href="#WuGeslider" data-slide="prev">
-      <span class="carousel-control-prev-icon" ></span>
-      
+      <span class="carousel-control-prev-icon"></span>
+
     </a>
     <a class="carousel-control-next" href="#WuGeslider" data-slide="next">
-      <span class="carousel-control-next-icon" ></span>
-      
+      <span class="carousel-control-next-icon"></span>
+
     </a>
-    </section>
+  </section>
 
-    <header class="container mt-5 text-center">
-      <h2 class="text-info mb-3">房型介紹</h2>
-      <div class="nav nav-tabs justify-content-around">
-        <a class="nav-item nav-link active alert-info alert-info text-white ask shadow-sm" data-toggle="tab" href="#nav-home">行政本館</a>
-        <a class="nav-item nav-link alert-info alert-info text-white ask shadow-sm" data-toggle="tab" href="#nav-home2">雙幕川館</a>
-        <a class="nav-item nav-link alert-info alert-info text-white ask shadow-sm" data-toggle="tab" href="#nav-home3">繪影湯屋</a>
-        <a class="nav-item nav-link alert-info alert-info text-white ask shadow-sm" data-toggle="tab" href="#nav-price">價格</a>
-        <a class="nav-item nav-link alert-info alert-info text-white ask shadow-sm" data-toggle="tab" href="#nav-order">訂房</a>
-      </div>
-    </header>
-    <div class="tab-content">
+  <!-- 房屋介紹 -->
+  <header class="container mt-5 text-center" id="home-Introduction">
+    <h2 class="text-info mb-3">房型介紹</h2>
+    <div class="nav nav-tabs justify-content-around">
+      <a class="nav-item nav-link active alert-info alert-info text-white ask shadow-sm" data-toggle="tab"
+        href="#nav-home">行政本館</a>
+      <a class="nav-item nav-link alert-info alert-info text-white ask shadow-sm" data-toggle="tab"
+        href="#nav-home2">雙幕川館</a>
+      <a class="nav-item nav-link alert-info alert-info text-white ask shadow-sm" data-toggle="tab"
+        href="#nav-home3">繪影湯屋</a>
+      <a class="nav-item nav-link alert-info alert-info text-white ask shadow-sm" data-toggle="tab"
+        href="#nav-price">價格</a>
+      <a class="nav-item nav-link alert-info alert-info text-white ask shadow-sm" data-toggle="tab"
+        href="#nav-order">訂房</a>
+    </div>
+  </header>
+  <div class="tab-content">
 
-      <!--房1-->
-      <div class="tab-pane fade show active container mb-5" id="nav-home">
-        <p class="col-12 mb-5 mt-5 text-muted text-center">溫馨典雅的行政本館，給您簡約的度假享受。<br>
-          使用大片落地窗，採光極佳，每房皆設有觀景陽台，讓您遠眺高山、與大自然一親芳澤。</p>
-          <div class="row d-flex justify-content-around">
-          <div class="card mb-5" style="width: 18rem;">
-            <img src="https://picsum.photos/300/200/?random=1" class="card-img-top">
+    <!--房1-->
+    <div class="tab-pane fade show active container mb-5" id="nav-home">
+      <p class="col-12 mb-5 mt-5 text-muted text-center">溫馨典雅的行政本館，給您簡約的度假享受。<br>
+        使用大片落地窗，採光極佳，每房皆設有觀景陽台，讓您遠眺高山、與大自然一親芳澤。</p>
+      <div class="row d-flex">
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="./img/SS-01.jpg" class="card-img-top">
             <div class="card-body">
               <h5>行政本館</h5>
               <p class="card-text">
-            溫馨雙人房<small class="text-muted float-right">1 大床 | 6.5 坪</small>
+                溫馨雙人房<small class="text-muted float-right">1 大床 | 6.5 坪</small>
               </p>
             </div>
           </div>
-          <div class="card mb-5" style="width: 18rem;">
-            <img src="https://picsum.photos/300/200/?random=2" class="card-img-top">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="./img/SS-02.jpg" class="card-img-top">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card mb-5" style="width: 18rem;">
-            <img src="https://picsum.photos/300/200/?random=3" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5>行政本館</h5>
+              <p class="card-text">
+                精緻雙人房<small class="text-muted float-right">1 大床 | 10.5 坪</small>
+              </p>
             </div>
           </div>
         </div>
-
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="./img/SS-03.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5>行政本館</h5>
+              <p class="card-text">
+                親子四人房<small class="text-muted float-right">2 大床 | 12 坪</small>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!--房2-->
-      <div class="tab-pane fade container mb-5" id="nav-home2">...</div>
+    </div>
 
-      <!--房3-->
-      <div class="tab-pane fade container mb-5" id="nav-home3">...</div>
-
-      <!--價格-->
-      <div class="tab-pane fade container mb-5" id="nav-price">
-        <h5 class="text-info mt-5">[ 行政本館 ]</h5>
-        <table class="table table-sm text-center">
-          <thead>
-            <tr class="alert-info">
-              <th class="border-info">房型</th>
-              <th class="border-info">平日</th>
-              <th class="border-info">假日</th>
-              <th class="border-info">連續國定假日</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>溫馨雙人房</th>
-              <td>NT3000</td>
-              <td>NT3000</td>
-              <td>NT3000</td>
-            </tr>
-            <tr>
-              <th>精緻雙人房</th>
-              <td>NT3000</td>
-              <td>NT3000</td>
-              <td>NT3000</td>
-            </tr>
-            <tr>
-              <th>親子四人房</th>
-              <td>NT3000</td>
-              <td>NT3000</td>
-              <td>NT3000</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <h5 class="text-info mt-5">[ 雙幕川館 ]</h5>
-        <table class="table table-sm text-center">
-          <thead>
-            <tr class="alert-info">
-              <th class="border-info">房型</th>
-              <th class="border-info">平日</th>
-              <th class="border-info">假日</th>
-              <th class="border-info">連續國定假日</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>湖畔仙屋</th>
-              <td>NT3000</td>
-              <td>NT3000</td>
-              <td>NT3000</td>
-            </tr>
-            <tr>
-              <th>芬多森屋</th>
-              <td>NT3000</td>
-              <td>NT3000</td>
-              <td>NT3000</td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <h5 class="text-info mt-5">[ 繪影湯屋 ]</h5>
-        <table class="table table-sm text-center">
-          <thead>
-            <tr class="alert-info">
-              <th class="border-info">房型</th>
-              <th class="border-info">平日</th>
-              <th class="border-info">假日</th>
-              <th class="border-info">連續國定假日</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>溫馨蜜月房</th>
-              <td>NT3000</td>
-              <td>NT3000</td>
-              <td>NT3000</td>
-            </tr>
-            <tr>
-              <th>親子家庭房</th>
-              <td>NT3000</td>
-              <td>NT3000</td>
-              <td>NT3000</td>
-            </tr>
-            <tr>
-              <th>豪華尊爵房</th>
-              <td>NT3000</td>
-              <td>NT3000</td>
-              <td>NT3000</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!--訂房-->
-      <div class="tab-pane fade container mb-5" id="nav-order">
-           <h3 class="text-right border-bottom border-info mt-5">入住須知</h3>
-           <h5 class="text-info">[ 飯店設備 ]</h5>
-           <p class="mb-5">
-             客房無線網路、有線第四台、自助洗衣機、免費烘乾機、免費停車場
-           </p>
-           <h5 class="text-info">[ 入住須知 ]</h5>
-           <p class="mb-5">
-             進房時間（Check In )時間為15:00以後；退房時間（Check
-             Out）時間為11:00以前。<br>
-             住宿時請攜帶本人身分證正本、駕照以利核對。<br>
-             一般住宿附贈早餐、SPA券（依住宿房型開立），特殊專案依專案條件辦理。<br>
-             超過退房時間一個小時將以一個小時200元計費，超過半個小時將以一個小時計算。<br>
-             請注意住宿人數勿超過客房設定之人數，若有超過客房設定人數，飯店有權拒絕入住。
-           </p>
-           <h5 class="text-info">[ 平假日定義 ]</h5>
-           <p class="mb-5">
-             平日時間：星期日~星期五；假日時間：星期六、連續假日結束前一日，依飯店公告為準。
-           </p>
-           <h5 class="text-info">[ 加人服務 ]</h5>
-           <p class="mb-5">
-             本飯店繪圖湯屋房型提供加人服務（含軟墊、備品、早餐、溫泉SPA券），<br>
-             每加一人NT$600（春節期間不適用）。
-           </p>
-           <h5 class="text-info">[ 其他注意事項 ]</h5>
-           <p class="mb-5">
-             為維護住宿品質，室內空間全面禁菸，禁止攜帶貓狗等寵物入住，如經查獲加收清潔費5000元。<br>
-             為維護公共及個人安全，禁止在房間內烹煮食物，或攜帶瓦斯、電磁爐等同性質用具，敬請房客務必配合。<br>
-             客房地面為木質地板，請勿擅自移動房內傢俱，如發現自行搬動客房家具造成木質地面損傷，需付損毁費用。<br>
-             房型擺設僅供參考，以實體房間為主。<br>
-             免費停車場（僅供免費停車，不負保管之責）。<br>
-             行政本館及雙幕川館內衛浴設備皆為一般熱水，如需使用溫泉需至戶外大眾池或改訂繪圖湯屋房型。
-           </p>
-   
-           <h3 class="text-right border-bottom border-info">官網訂房規範</h3>
-           <p class="mb-5">- 僅適用官網訂房，專案如有特殊需求，依專案為主</p>
-   
-           <h5 class="text-info">[ 線上訂房須知 ]</h5>
-           <p class="mb-5">
-             線上訂房交易價格均已含營業稅及服務費，若您選擇線上刷卡，交易成功後將由您的信用卡帳戶直接扣款。<br>
-             線上訂房不接受國民旅遊卡刷卡訂房，若需使用國民旅遊卡訂房請直接電洽櫃台辦理。
-           </p>
-   
-           <h5 class="text-info">[ 延遲入住手續 ]</h5>
-           <p class="mb-5">
-             若您在住宿當日，因塞車或其他的因素有所耽擱，無法在當日下午六點以前辦理住房手續，請您先以電話聯繫，否則飯店將視為您當日取消訂房，恕不退費。
-           </p>
-   
-           <h5 class="text-info">[ 更改入住日期 ]</h5>
-           <p class="mb-5">
-             訂房後如欲更改訂房日期，請電話聯絡協助處理。<br>
-             同一筆訂單限更改一次，且更改後的訂單恕不接受退房，否則視同取消訂房，依取消訂房規範處理。<br>
-             如更改後訂單金額大於原訂單金額，旅客需現場另行支付差額；如更改後金額小於原訂單金額，恕不退還差額。
-           </p>
-   
-           <h5 class="text-info">[ 取消訂房 ]</h5>
-           <p class="mb-5">
-             取消訂房將依以下規範酌收定金，請特別注意：<br>
-             住宿日 當日 取消訂房，扣定金總金額100%<br>
-             住宿日 1 天前（不含當日）取消訂房，扣定金總金額80%<br>
-             住宿日 2~3 天前（不含當日）取消訂房，扣定金總金額70%<br>
-             住宿日 4~6 天前（不含當日）取消訂房，扣定金總金額60%<br>
-             住宿日 7~9 天前（不含當日）取消訂房，扣定金總金額50%<br>
-             住宿日 10~13 天前（不含當日）取消訂房，扣定金總金額30%<br>
-             住宿日 14
-             天前（不含當日）取消訂房，扣除匯款手續費後，剩餘定金退還。<br>
-             線上訂房若有需求取消，請直接與我們「電話」聯繫進行取消訂房。<br>
-             若您使用信用卡付款，我們將由系統進行刷退動作；若您使用臨櫃匯款或ATM轉帳，請您傳真訂房者之任一銀行存摺封面至089-515026。
-           </p>
-   
-           <h5 class="text-info">[ 特殊因素之退房處理 ]</h5>
-           <p class="mb-5">
-             若因天然災害等不可抗拒之因素（如地震、颱風等，以飯店所在地縣市政府公告為準）無法如期前往住宿<br>
-             請於原訂住宿日３日（含當日）內與飯店之訂房中心連絡改期（得保留6個月）或是辦理退費。
-           </p>
-         </div>
+    <!--房2-->
+    <div class="tab-pane fade container mb-5" id="nav-home2">
+      <p class="col-12 mb-5 mt-5 text-muted text-center">雙幕川館位於擁有大量的綠地腹地花園，房外種植有柏樹，每房皆為獨棟湯屋設計。<br>
+        打開房門就見到綠油油的寬廣草地，呼吸一口大自然最新鮮的空氣，三五好友一起夜晚裡賞月觀星，聊天談心，是最愜意的享受。</p>
+      <div class="row d-flex">
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="./img/SS-04.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5>雙幕川館</h5>
+              <p class="card-text">
+                溫馨雙人房<small class="text-muted float-right">1 大床 | 6.5 坪</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="./img/SS-05.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5>雙幕川館</h5>
+              <p class="card-text">
+                精緻雙人房<small class="text-muted float-right">1 大床 | 10.5 坪</small>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-
-    <!-- 尾頁版權 -->
-    <footer class="bg-dark text-muted py-3 text-center">
-      <small>
-        泰山職業訓練中心課程教材編譯 <br>
-        copyright &copy; <span class="text-warning">武戈01設計</span>. all rights reserved
-      </small>
-      <div class="position-fixed">
-        <a href="#WuGeslider" class="btn btn-info"><i class="fas fa-eject"></i></a>
+    <!--房3-->
+    <div class="tab-pane fade container mb-5" id="nav-home3">
+      <p class="col-12 mb-5 mt-5 text-muted text-center">每房皆為獨棟式小屋設計，鋪設進口大理石防滑地板安心使用，浪漫典雅。<br>
+        房內設有溫泉浴槽，私享您的奢華溫泉浴時光。</p>
+      <div class="row d-flex">
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="./img/SS-06.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5>繪影湯屋</h5>
+              <p class="card-text">
+                溫馨雙人房<small class="text-muted float-right">1 大床 | 6.5 坪</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="./img/SS-07.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5>繪影湯屋</h5>
+              <p class="card-text">
+                精緻雙人房<small class="text-muted float-right">1 大床 | 10.5 坪</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="./img/SS-08.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5>繪影湯屋</h5>
+              <p class="card-text">
+                親子四人房<small class="text-muted float-right">2 大床 | 12 坪</small>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+
+    </div>
+
+    <!--價格-->
+    <div class="tab-pane fade container mb-5" id="nav-price">
+      <h5 class="text-info mt-5">[ 行政本館 ]</h5>
+      <table class="table table-sm text-center">
+        <thead>
+          <tr class="alert-info">
+            <th class="border-info">房型</th>
+            <th class="border-info">平日</th>
+            <th class="border-info">假日</th>
+            <th class="border-info">連續國定假日</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>溫馨雙人房</th>
+            <td>NT3000</td>
+            <td>NT3000</td>
+            <td>NT3000</td>
+          </tr>
+          <tr>
+            <th>精緻雙人房</th>
+            <td>NT3000</td>
+            <td>NT3000</td>
+            <td>NT3000</td>
+          </tr>
+          <tr>
+            <th>親子四人房</th>
+            <td>NT3000</td>
+            <td>NT3000</td>
+            <td>NT3000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h5 class="text-info mt-5">[ 雙幕川館 ]</h5>
+      <table class="table table-sm text-center">
+        <thead>
+          <tr class="alert-info">
+            <th class="border-info">房型</th>
+            <th class="border-info">平日</th>
+            <th class="border-info">假日</th>
+            <th class="border-info">連續國定假日</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>湖畔仙屋</th>
+            <td>NT3000</td>
+            <td>NT3000</td>
+            <td>NT3000</td>
+          </tr>
+          <tr>
+            <th>芬多森屋</th>
+            <td>NT3000</td>
+            <td>NT3000</td>
+            <td>NT3000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h5 class="text-info mt-5">[ 繪影湯屋 ]</h5>
+      <table class="table table-sm text-center">
+        <thead>
+          <tr class="alert-info">
+            <th class="border-info">房型</th>
+            <th class="border-info">平日</th>
+            <th class="border-info">假日</th>
+            <th class="border-info">連續國定假日</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>溫馨蜜月房</th>
+            <td>NT3000</td>
+            <td>NT3000</td>
+            <td>NT3000</td>
+          </tr>
+          <tr>
+            <th>親子家庭房</th>
+            <td>NT3000</td>
+            <td>NT3000</td>
+            <td>NT3000</td>
+          </tr>
+          <tr>
+            <th>豪華尊爵房</th>
+            <td>NT3000</td>
+            <td>NT3000</td>
+            <td>NT3000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!--訂房-->
+    <div class="tab-pane fade container mb-5" id="nav-order">
+      <h3 class="text-right border-bottom border-info mt-5">入住須知</h3>
+      <h5 class="text-info">[ 飯店設備 ]</h5>
+      <p class="mb-5">
+        客房無線網路、有線第四台、自助洗衣機、免費烘乾機、免費停車場
+      </p>
+      <h5 class="text-info">[ 入住須知 ]</h5>
+      <p class="mb-5">
+        進房時間（Check In )時間為15:00以後；退房時間（Check
+        Out）時間為11:00以前。<br>
+        住宿時請攜帶本人身分證正本、駕照以利核對。<br>
+        一般住宿附贈早餐、SPA券（依住宿房型開立），特殊專案依專案條件辦理。<br>
+        超過退房時間一個小時將以一個小時200元計費，超過半個小時將以一個小時計算。<br>
+        請注意住宿人數勿超過客房設定之人數，若有超過客房設定人數，飯店有權拒絕入住。
+      </p>
+      <h5 class="text-info">[ 平假日定義 ]</h5>
+      <p class="mb-5">
+        平日時間：星期日~星期五；假日時間：星期六、連續假日結束前一日，依飯店公告為準。
+      </p>
+      <h5 class="text-info">[ 加人服務 ]</h5>
+      <p class="mb-5">
+        本飯店繪圖湯屋房型提供加人服務（含軟墊、備品、早餐、溫泉SPA券），<br>
+        每加一人NT$600（春節期間不適用）。
+      </p>
+      <h5 class="text-info">[ 其他注意事項 ]</h5>
+      <p class="mb-5">
+        為維護住宿品質，室內空間全面禁菸，禁止攜帶貓狗等寵物入住，如經查獲加收清潔費5000元。<br>
+        為維護公共及個人安全，禁止在房間內烹煮食物，或攜帶瓦斯、電磁爐等同性質用具，敬請房客務必配合。<br>
+        客房地面為木質地板，請勿擅自移動房內傢俱，如發現自行搬動客房家具造成木質地面損傷，需付損毁費用。<br>
+        房型擺設僅供參考，以實體房間為主。<br>
+        免費停車場（僅供免費停車，不負保管之責）。<br>
+        行政本館及雙幕川館內衛浴設備皆為一般熱水，如需使用溫泉需至戶外大眾池或改訂繪圖湯屋房型。
+      </p>
+
+      <h3 class="text-right border-bottom border-info">官網訂房規範</h3>
+      <p class="mb-5">- 僅適用官網訂房，專案如有特殊需求，依專案為主</p>
+
+      <h5 class="text-info">[ 線上訂房須知 ]</h5>
+      <p class="mb-5">
+        線上訂房交易價格均已含營業稅及服務費，若您選擇線上刷卡，交易成功後將由您的信用卡帳戶直接扣款。<br>
+        線上訂房不接受國民旅遊卡刷卡訂房，若需使用國民旅遊卡訂房請直接電洽櫃台辦理。
+      </p>
+
+      <h5 class="text-info">[ 延遲入住手續 ]</h5>
+      <p class="mb-5">
+        若您在住宿當日，因塞車或其他的因素有所耽擱，無法在當日下午六點以前辦理住房手續，請您先以電話聯繫，否則飯店將視為您當日取消訂房，恕不退費。
+      </p>
+
+      <h5 class="text-info">[ 更改入住日期 ]</h5>
+      <p class="mb-5">
+        訂房後如欲更改訂房日期，請電話聯絡協助處理。<br>
+        同一筆訂單限更改一次，且更改後的訂單恕不接受退房，否則視同取消訂房，依取消訂房規範處理。<br>
+        如更改後訂單金額大於原訂單金額，旅客需現場另行支付差額；如更改後金額小於原訂單金額，恕不退還差額。
+      </p>
+
+      <h5 class="text-info">[ 取消訂房 ]</h5>
+      <p class="mb-5">
+        取消訂房將依以下規範酌收定金，請特別注意：<br>
+        住宿日 當日 取消訂房，扣定金總金額100%<br>
+        住宿日 1 天前（不含當日）取消訂房，扣定金總金額80%<br>
+        住宿日 2~3 天前（不含當日）取消訂房，扣定金總金額70%<br>
+        住宿日 4~6 天前（不含當日）取消訂房，扣定金總金額60%<br>
+        住宿日 7~9 天前（不含當日）取消訂房，扣定金總金額50%<br>
+        住宿日 10~13 天前（不含當日）取消訂房，扣定金總金額30%<br>
+        住宿日 14
+        天前（不含當日）取消訂房，扣除匯款手續費後，剩餘定金退還。<br>
+        線上訂房若有需求取消，請直接與我們「電話」聯繫進行取消訂房。<br>
+        若您使用信用卡付款，我們將由系統進行刷退動作；若您使用臨櫃匯款或ATM轉帳，請您傳真訂房者之任一銀行存摺封面至089-515026。
+      </p>
+
+      <h5 class="text-info">[ 特殊因素之退房處理 ]</h5>
+      <p class="mb-5">
+        若因天然災害等不可抗拒之因素（如地震、颱風等，以飯店所在地縣市政府公告為準）無法如期前往住宿<br>
+        請於原訂住宿日３日（含當日）內與飯店之訂房中心連絡改期（得保留6個月）或是辦理退費。
+      </p>
+    </div>
+  </div>
+
+<!-- 服務介紹 -->
+  <section class="bg-secondary py-5" id="home-service">
+    <header class="container text-center">
+      <h2 class="text-white">服務介紹</h2>
+    </header>
+    <article class="container py-5" id="article-service">
+    <ul class="list-unstyled text-white overflow-hidden row">
+      <li class="col-lg-6 media mb-4 flex-column flex-sm-row align-items-center">
+        <img src="./img/TY-01.jpg" class="pb-3 col-sm-6">
+        <div class="col-sm-6 media-body">
+          <h5 class="mt-0 mb-1">戶外海景游泳池</h5>
+          <p class="border-bottom border-info pb-3">
+            提供佔地面積1000坪的戶外大型游泳池，躺臥在優懶的助曬椅上，盡情享受陽光空氣與水的度假時光。</p>
+        </div>
+      </li>
+      <li class="col-lg-6 media mb-4 flex-column flex-sm-row align-items-center">
+        <img src="./img/TY-02.jpg" class="pb-3 col-sm-6">
+        <div class="col-sm-6 media-body">
+          <h5 class="mt-0 mb-1">16F 健身房
+          </h5>
+          <p class="border-bottom border-info pb-3">
+            提供有氧與無氧相關健身設施，提供房客免費使用並提供免費毛巾替換，進入使用前請向櫃台提出申請管制門卡使用。</p>
+        </div>
+      </li>
+      <li class="col-lg-6 media mb-4 flex-column flex-sm-row align-items-center">
+        <img src="./img/TY-03.jpg" class="pb-3 col-sm-6">
+        <div class="col-sm-6 media-body">
+          <h5 class="mt-0 mb-1">3F SPA 全身護膚中心</h5>
+          <p class="border-bottom border-info pb-3">
+            好好考賞自己，前來享受全身或足部的按摩精油SPA，讓你的度假達到身心靈的全面放鬆，本SPA中心採預約制請提前兩周預約。</p>
+        </div>
+      </li>
+      <li class="col-lg-6 media mb-4 flex-column flex-sm-row align-items-center">
+        <img src="./img/TY-04.jpg" class="pb-3 col-sm-6">
+        <div class="col-sm-6 media-body">
+          <h5 class="mt-0 mb-1">1F 免費租借腳踏車</h5>
+          <p class="border-bottom border-info pb-3">
+            本飯店另提供免費四十組變速淑女腳踏車，讓賓客租借使用，請向櫃台提出申請數量有限請加以利用。</p>
+        </div>
+      </li>
+      <li class="col-lg-6 media mb-4 flex-column flex-sm-row align-items-center">
+        <img src="./img/TY-05.jpg" class="pb-3 col-sm-6">
+        <div class="col-sm-6 media-body">
+          <h5 class="mt-0 mb-1">戶外 泰山溫泉悠活樂園</h5>
+          <p class="border-bottom border-info pb-3">
+            泰山溫泉水質為碳酸性質另有美人湯之稱，另提供SPA按摩與冷泉使用，精油藥浴共五組溫泉歡迎您前來享受。</p>
+        </div>
+      </li>
+      <li class="col-lg-6 media mb-4 flex-column flex-sm-row align-items-center">
+        <img src="./img/TY-06.jpg" class="pb-3 col-sm-6">
+        <div class="col-sm-6 media-body">
+          <h5 class="mt-0 mb-1">1F 迎賓大廳</h5>
+          <p class="border-bottom border-info pb-3">
+            泰山渡假飯店為在地經典地標飯店，提供舒適且奢華的服務使用，您可以免費使用早報與咖啡機，並獲得相關旅遊情報。</p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  </section>
+
+<!-- 美食介紹 -->
+  <section class="bg-secondary py-5" id="home-food">
+    <header class="container text-center">
+      <h2 class="text-white">餐飲美食</h2>
+    </header>
+    <article class="container py-5" id="article-food">
+
+  </article>
+  </section>
+
+  <!-- 尾頁版權 -->
+  <footer class="bg-dark text-muted py-3 text-center">
+    <small>
+      泰山職業訓練中心課程教材編譯 <br>
+      copyright &copy; <span class="text-warning">武戈01設計</span>. all rights reserved
+    </small>
+    <div class="position-fixed">
+      <a href="#WuGeslider" class="btn btn-info" id="bobojump"><i class="fas fa-eject"></i></a>
+    </div>
+  </footer>
+
 
 
 
 </body>
+
 </html>
