@@ -453,40 +453,67 @@
     <header class="text-center">
       <h2 class="text-info">餐飲美食</h2>
     </header>
-    <article class="py-5" id="article-food">
-      <div class="accordion" id="accordionWuGe">
-        <div class="card">
+    <article class="py-5 row justify-content-around" id="article-food">
 
-          <div class="card-header">
-            <a class="btn-block" data-toggle="collapse" data-target="#collapseOne">AA</a>
-          </div>
-      
+ 
+        <div class="tab-content col-12 col-lg-6 px-3 pb-5 pb-lg-0" >
+          <img class="tab-pane fade show active border-light w-100 rounded-lg" id="list-A" src="./img/CC-01.jpg">
+          <img class="tab-pane fade border-light w-100 rounded-lg" id="list-B" src="./img/CC-02.jpg">
+          <img class="tab-pane fade border-light w-100 rounded-lg" id="list-C" src="./img/CC-03.jpg">
+        </div>
+
+         
+
+      <div class="accordion list-group col-12 col-lg-6 px-3" id="accordionWuGe">
+        <div class="card" data-toggle="list" data-target="#list-A">
+          <div class="card-header alert-info">
+            <a class="btn-block font-weight-bold" data-toggle="collapse" data-target="#collapseOne">中歐頂級豪華早餐(自助式)
+              <small class="text-muted float-right">in 2F 食堂</small>
+            </a>
+          </div>     
+
           <div id="collapseOne" class="collapse show" data-parent="#accordionWuGe">
             <div class="card-body">
               百道經典美食早午餐就在這裡，嚴選泰山當地食材精心烹調充滿在地風味的特色小吃，菜色美味有口皆碑，由三星米其林主廚團隊為您廚房把關一整天最重要的精氣早餐。<br>
-              座位高達500人用餐空間，另也適合工商宴席、婚禮宴客、家庭聚餐、大宴小酌、台菜、客家菜、風味套餐色、香、味美，是用餐之好所在!，多種餐飲選擇滿足您挑剔的味蕾並歡迎親臨品嚐!!
+              座位高達500人用餐空間，另也適合工商宴席、婚禮宴客、家庭聚餐、大宴小酌、台菜、客家菜、風味套餐色、香、味美，是用餐之好所在!，多種餐飲選擇滿足您挑剔的味蕾並歡迎親臨品嚐!! 
+              <p class="float-right text-danger"><br>定價： 大人 NT500 / 小孩 NT300 <br>
+                營業時間：AM 06:00 ~ AM 11:00</p>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header">
-            <a class="btn-block" data-toggle="collapse" data-target="#collapseTwo">BB</a>
+
+        <div class="card" data-toggle="list" data-target="#list-B">
+          <div class="card-header alert-info">
+            <a class="btn-block font-weight-bold" data-toggle="collapse" data-target="#collapseTwo">
+              咖啡複合式式鋼琴酒吧
+              <small class="text-muted float-right">in 1F 中庭</small>
+            </a>
           </div>
           <div id="collapseTwo" class="collapse" data-parent="#accordionWuGe">
             <div class="card-body">
               大飯店一樓的挑高中庭，瀰漫優雅的南洋休閒風，庭內雨林造景，融合水聲與天籟柔美樂音，供應各式花茶、咖啡、健康蔬果汁、英式下午茶及宵夜，揉合自然音樂，是您輕鬆暢敘的最佳地點。<br>
               （假日二人樂團鋼琴、長笛、薩克斯風演奏）
+              <p class="float-right text-danger"><br>基本消費：NT150 + 10% / 位<br>
+                營業時間：PM 07:00 ~ AM 01:00</p>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header">
-            <a  class="btn-block" data-toggle="collapse" data-target="#collapseThree">CC</a>
+
+        <div class="card" data-toggle="list" data-target="#list-C">
+          <div class="card-header alert-info">
+            <a  class="btn-block font-weight-bold" data-toggle="collapse" data-target="#collapseThree">
+              桶仔雞BBQ露營露天套餐
+              <small class="text-muted float-right">代訂預約</small>
+            </a>
           </div>
           <div id="collapseThree" class="collapse" data-parent="#accordionWuGe">
             <div class="card-body">
               本季每日限量的私房美饌，經典台灣古早味美食桶仔雞為您準備，古早醬汁與獨家配方將其均勻裹上一層厚厚的蜂蜜楓糖後再送進烤爐燒烤。一口咬下細膩的肉質與酥脆表皮，享受這多層次卻不膩口的美味。<br>
               另還有BBQ豪華套餐組合(10人份)，讓你美味無窮享受榮高至上的味蕾享受。
+              <p class="float-right text-danger"><br>
+                露營客代訂服務 (以利備食材，請於一週前預約)<br>
+                $800/隻 桶仔雞(全熟食)<br>
+                $3000/10人 BBQ豪華套餐(半熟冷藏)</p>
             </div>
           </div>
         </div>

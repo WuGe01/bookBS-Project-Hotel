@@ -47,6 +47,10 @@ footer>.position-fixed{
 .card-header>a{
   cursor:pointer;
 }
+.Ofill{
+  object-fit: fill;
+
+}
 /* #bobojump{
   transition: 1000ms ease; 
 } */
