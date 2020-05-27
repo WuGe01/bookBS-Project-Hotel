@@ -52,6 +52,12 @@ footer>.position-fixed{
   filter: brightness(0.6);
 
 }
+.nav-link{
+  transition: 700ms ease; 
+}
+/* .fa-facebook{
+  size: 9x;
+} */
 /* #bobojump{
   transition: 1000ms ease; 
 } */
