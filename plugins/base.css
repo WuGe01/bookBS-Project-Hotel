@@ -1,5 +1,18 @@
 * {
     font-family: "Microsoft JhengHei",Arial, Helvetica, sans-serif;
+    /* scroll-behavior: smooth; */
+}
+header#wugemeun a:after{
+  content: "";
+  height: 2px;
+  display: block;
+  width: 0%;
+  background-color: white;
+  margin: 5px 0;
+  transition:width 1s ease;
+}
+header#wugemeun a.active:after{
+  width: 100%;
 }
 #WuGeslider img {
     object-fit: cover;

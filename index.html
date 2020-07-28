@@ -12,16 +12,17 @@
 
   <script src="./plugins/jquery-3.5.1.js"></script>
   <script src="./plugins/bootstrap.bundle.min.js"></script>
+  <script src="./plugins/my.js"></script>
   <title>泰山渡假村</title>
 
 </head>
 
 <body class="bg-white">
   <!-- header部分 -->
-  <header class="bg-dark fixed-top">
+  <header class="bg-dark fixed-top" id="wugemeun">
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-      <a href="#"><span class="navbar-brand mb-0 h1 font-weight-bold">泰山渡假村</span></a>
+      <a href="#" id="wugetitleTT"><span class="navbar-brand mb-0 h1 font-weight-bold">泰山渡假村</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#head-nav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -87,7 +88,8 @@
   </section>
 
   <!-- 房屋介紹 -->
-  <header class="container py-5 text-center" id="home-Introduction">
+  <section id="home-Introduction">
+  <header class="container py-5 text-center">
     <h2 class="text-info mb-3">房型介紹</h2>
     <div class="nav nav-tabs justify-content-around">
       <a class="nav-item nav-link active alert-info alert-info text-white ask shadow-sm" data-toggle="tab"
@@ -389,6 +391,7 @@
       </p>
     </div>
   </div>
+</section>
 
   <!-- 服務介紹 -->
   <section class="bg-secondary py-5" id="home-service">
@@ -637,7 +640,7 @@
       copyright &copy; <span class="text-warning">武戈01設計</span>. all rights reserved
     </small>
     <div class="position-fixed">
-      <a href="#WuGeslider" class="btn btn-info" id="bobojump"><i class="fas fa-eject"></i></a>
+      <a href="#WuGeslider" id="Wugeslider" class="btn btn-info" id="bobojump"><i class="fas fa-eject"></i></a>
     </div>
   </footer>
 
